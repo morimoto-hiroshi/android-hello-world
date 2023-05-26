@@ -13,6 +13,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        EditText editText = findViewById(R.id.editTextTextPersonName);
+        editText.setText("ここにメッセージを入力して'SEND MESSAGE'");
     }
 
     public static final String EXTRA_MESSAGE = "com.example.helloWorld.MESSAGE";
