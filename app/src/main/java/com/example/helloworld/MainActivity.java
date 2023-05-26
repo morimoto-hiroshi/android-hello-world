@@ -2,6 +2,7 @@ package com.example.helloworld;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -9,13 +10,14 @@ import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
+    @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
         EditText editText = findViewById(R.id.editTextTextPersonName);
-        editText.setText("ここにメッセージを入力して'SEND MESSAGE'");
+        editText.setText("ここにメッセージを入力して\"SEND MESSAGE\"");
     }
 
     public static final String EXTRA_MESSAGE = "com.example.helloWorld.MESSAGE";

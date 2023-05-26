@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">HelloWorld</string>
     <string name="edit_message">Enter a message</string>
+    <string name="some_image">some image</string>
+    <string name="textview">TextView</string>
+    <string name="send_message">send message</string>
+    <string name="show_canvas">show canvas</string>
+    <string name="show_list">show list</string>
 </resources>
