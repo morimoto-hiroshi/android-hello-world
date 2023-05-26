@@ -10,7 +10,8 @@
         android:id="@+id/image_view"
         android:layout_margin="2dp"
         android:layout_width="100dp"
-        android:layout_height="100dp"/>
+        android:layout_height="100dp"
+        android:contentDescription="@string/some_image" />
 
     <TextView
         android:id="@+id/text_view"
